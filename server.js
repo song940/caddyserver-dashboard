@@ -10,7 +10,7 @@ app.use(logger);
 app.use(serve('.'));
 app.use(proxy({
   path: '/api',
-  proxy: 'http://localhost:3005', // api-server
+  proxy: 'https://api.lsong.me', // api-server
 }));
 
 http.createServer(app).listen(8000);

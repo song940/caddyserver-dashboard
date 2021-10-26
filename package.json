@@ -35,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/song940/react-app/issues"
   },
-  "homepage": "https://github.com/song940/react-app#readme"
+  "homepage": "https://github.com/song940/react-app#readme",
+  "dependencies": {
+    "caddyserver": "^0.1.1"
+  }
 }
